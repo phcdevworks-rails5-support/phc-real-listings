@@ -1,0 +1,12 @@
+.bundle/
+log/*.log
+pkg/
+*.gem
+
+spec/test_app/db/*.sqlite3
+spec/test_app/db/*.sqlite3-journal
+spec/test_app/log/*.log
+spec/test_app/node_modules/
+spec/test_app/yarn-error.log
+spec/test_app/storage/
+spec/test_app/tmp/

@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @property_listing.price %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @property_listing.type %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @property_listing.status %>
+</p>
+
+<p>
+  <strong>Bed:</strong>
+  <%= @property_listing.bed %>
+</p>
+
+<p>
+  <strong>Bath:</strong>
+  <%= @property_listing.bath %>
+</p>
+
+<p>
+  <strong>G:</strong>
+  <%= @property_listing.g %>
+</p>
+
+<p>
+  <strong>Garage:</strong>
+  <%= @property_listing.garage %>
+</p>
+
+<p>
+  <strong>Descripting:</strong>
+  <%= @property_listing.descripting %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @property_listing.title %>
+</p>
+
+<%= link_to 'Edit', edit_property_listing_path(@property_listing) %> |
+<%= link_to 'Back', property_listings_path %>
